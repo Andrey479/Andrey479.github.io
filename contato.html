@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--Menu principal-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="formacao.html">Educação</a></li>
+            <li><a href="portifolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!--Estrutura do formúlario-->
+    <main>
+        <h1>Contato</h1>
+        <p>Preencha o formúlario para entrar em contato.</p>
+        <section>
+            <!--Após preenchido envia uma mensagem para meu email pessoal.-->
+            <form action="https://formsubmit.co/andreyofbbrasil@gmail.com" method="post">
+                <label for="nome">Nome </label><br>
+                <input type="text" name="nome" id="nome" required><br><br>
+                <label for="email">Email </label><br>
+                <input type="email" name="email" id="email" required> <br><br>
+                <label for="mensagem">Mensagem </label><br>
+                <textarea name="mensagem" id="mensagem" rows="5" required></textarea><br><br>
+                <input id="botao" type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
